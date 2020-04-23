@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Righteous", cursive;
+}
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section {
+	height: 100px;
+	width: 300px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	background-color: black;
+	/* border: 1px solid rebeccapurple; */
+	color: white;
+	padding: 3px;
+	border-radius: 5px;
+}
+#name {
+	margin: 0 auto;
+	overflow: hidden;
+	transition: 1s border;
+	border-radius: 5px;
+}
+.name {
+	padding: 25px;
+	margin: 5px;
+	display: inline;
+	background-color: red;
+	float: left;
+	transition: transform 0.3s;
+}
+.name {
+	font-size: 20px;
+}
+.gh {
+	/* border: 1px solid; */
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+#dev {
+	position: absolute;
+	width: 280px;
+	height: 50px;
+	background-color: black;
+	top: 266px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	left: 11px;
+	border-radius: 5px;
+}
+#dev p {
+	display: inline;
+	line-height: 50px;
+	padding-left: 10px;
+	outline: white;
+}
+#border {
+	height: 75px;
+	position: absolute;
+	width: 5px;
+	background-color: white;
+	float: left;
+}
+.name:nth-child(1) {
+	transform: translateX(-80px);
+}
+.name:nth-child(2) {
+	transform: translateY(80px);
+}
+.name:nth-child(3) {
+	transform: translateY(-80px);
+}
+.name:nth-child(4) {
+	transform: translateX(80px);
+}
+
+@media screen and (max-width: 550px) and (min-width: 415px) {
+	body {
+		align-items: flex-start;
+	}
+	section {
+		transform: translateY(100px);
+	}
+}
+@media screen and (max-width: 415px) and (min-width: 320px) {
+	body {
+		align-items: flex-start;
+	}
+	section {
+		transform: translateY(10px);
+	}
+}

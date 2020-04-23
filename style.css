@@ -1,0 +1,321 @@
+* {
+	margin: 0;
+	outline: none;
+	/* border: #000; */
+}
+.min {
+	background-image: url("canva-quiz-MADesG0W7sQ.jpg");
+	height: 99vh;
+	width: 100%;
+	padding: 1px;
+}
+.maiin {
+	height: 500px;
+	width: 800px;
+	/* border: 1px solid; */
+	position: absolute;
+	top: 30%;
+	left: 29%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#section > .maiin > h1 {
+	/* color: grey; */
+	position: absolute;
+	top: 70px;
+	/* left: 35%; */
+	font-size: 50px;
+}
+#section > .maiin > button {
+	position: absolute;
+	bottom: 30px;
+	/* left: 726px; */
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	box-shadow: 7px 7px 3px 2px black;
+}
+.appen {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	font-size: 60px;
+	background: #000;
+	color: blanchedalmond;
+	text-align: center;
+	outline: black;
+}
+#add {
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	height: auto;
+	width: 500px;
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#inm {
+	display: inline-block;
+	height: 40px;
+	width: 80%;
+	border-radius: 5px;
+	outline: none;
+	padding: 20px;
+}
+#btnn,
+#opbtn {
+	height: 40px;
+	width: 90px;
+	outline: none;
+	border-radius: 10px;
+	background: black;
+	color: blanchedalmond;
+	transition-duration: 2s;
+	margin: 20px;
+}
+#btnn:hover {
+	transform: scaleX(1.9);
+	border: 1px solid gray;
+}
+#opation {
+	height: auto;
+	width: auto;
+	background: #000;
+	visibility: hidden;
+	height: 350px;
+	width: 600px;
+	position: absolute;
+	left: 30%;
+	top: 29%;
+	border: 3px solid gray;
+}
+.samu {
+	display: block;
+	border-radius: 5px;
+	width: 80%;
+	padding: 20px;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+#opbtn {
+	position: absolute;
+	left: 40%;
+	top: 80%;
+}
+#uio {
+	position: absolute;
+	top: 100px;
+}
+#mnb {
+	position: absolute;
+	left: 10%;
+	bottom: 20%;
+	height: 120px;
+	width: 150px;
+	border-radius: 100%;
+	text-transform: capitalize;
+	background-color: #000;
+	color: #ffffff;
+	border: 1px solid burlywood;
+	font-size: 2em;
+	visibility: hidden;
+	cursor: pointer;
+	transition-duration: 2s;
+}
+#mnb:hover {
+	font-size: 1.7em;
+	transform: scale(2.7);
+	background: white;
+	color: black;
+	border: 10px dashed black;
+}
+#tmain {
+	height: 100vh;
+	width: 100%;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#cen {
+	height: auto;
+	min-height: 300px;
+	width: 60%;
+	background: white;
+	border-radius: 30px;
+	position: relative;
+}
+#namb {
+	margin-top: 30px;
+	border-radius: 5px;
+	background: teal;
+	color: white;
+	height: 30px;
+	width: 90px;
+}
+#tbtn,
+#rb {
+	position: absolute;
+	right: 20px;
+	bottom: 40px;
+	border-radius: 5px;
+	background: #000;
+	color: white;
+	height: 70px;
+	width: 70px;
+}
+#tques,
+#tqe {
+	height: auto;
+	width: 100%;
+	/* border: 1px solid; */
+}
+.tqyt {
+	height: auto;
+	min-height: 40px;
+	width: 40%;
+	/* border: 1px solid; */
+	margin: 10px;
+	border-radius: 20px;
+	z-index: 3;
+}
+#tques {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#cd {
+	height: 220px;
+	width: 300px;
+	/* border: 1px solid; */
+	position: absolute;
+	bottom: 170px;
+	right: 70px;
+}
+#ci {
+	height: 40px;
+	width: 80%;
+	margin-left: 10%;
+	border-radius: 30px;
+	padding: 20px;
+}
+#com {
+	position: absolute;
+	right: 123px;
+	bottom: 0px;
+	height: 40px;
+	width: 70px;
+	background: #000;
+	color: white;
+	border-radius: 10px;
+}
+#lmain,
+.fg {
+	height: 100vh;
+	width: 100%;
+	background: teal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	animation-name: bg;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+}
+@keyframes bg {
+	0% {
+		background: #000;
+		color: navy;
+	}
+	50% {
+		background: black;
+		color: navajowhite;
+	}
+	100% {
+		background: black;
+		color: red;
+	}
+}
+.dsd {
+	transform: scale(2);
+}
+.blue {
+	background: green;
+	color: white;
+}
+.red {
+	background: red;
+	color: white;
+}
+#w8 {
+	height: auto;
+	width: auto;
+}
+#rtrt {
+	border: none;
+	height: 40px;
+	width: 60px;
+	border-radius: 10px;
+	text-transform: capitalize;
+	position: absolute;
+	bottom: 50px;
+	color: white;
+	background: #000;
+	transform: scale(2);
+	border: 1px solid white;
+}
+#fay {
+	color: blanchedalmond;
+}
+#fmain {
+	height: 40vh;
+	width: 80%;
+	background: #7395a3;
+	position: relative;
+}
+#pdf {
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+#f5 {
+	position: absolute;
+	top: 120px;
+	left: 30px;
+}
+#valow {
+	margin-left: 100px;
+	bottom: 50px;
+}
+.w {
+	position: absolute;
+	bottom: 100px;
+	left: 20px;
+}
+.w1 {
+	position: absolute;
+	bottom: 100px;
+	left: 300px;
+	text-transform: uppercase;
+}
+.w2 {
+	position: absolute;
+	bottom: 100px;
+	left: 580px;
+	text-transform: uppercase;
+}
+.w3 {
+	position: absolute;
+	bottom: 100px;
+	left: 860px;
+	text-transform: uppercase;
+}
